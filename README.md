@@ -1,5 +1,23 @@
 # React1
 
+
+Tienes dos carpetas una 
+
+/api
+/client
+
+En cada carpeta hacer npm i
+y luego npm start
+
+ve la ruta 
+localhost:3000
+
+ve la otra ruta 
+localhost:3001:/db
+
+esa db es del archivo db.json que te cree forzado hay que llavrlo al front End
+
+
 ○Bloque de navegación principal con comportamiento smooth scroll (al hacer clic
 animar hasta el destino).
 ○Bloque de slider con tres imágenes.
