@@ -1,17 +1,19 @@
-import './App.css';
-
+//esta librerias son de REACT para poder sacar los datos del BACK END
+import { useState, useEffect } from "react";
+import './App.css'
 
 function App() {
-  
-     async function dato() {
-      const respuesta = await fetch('http://localhost:3001/db')
-      .then((response) => {response.json()})
+  useEffect(() => {
+    async function getData() {
+      const response = await fetch(
+        `http://localhost:3001/db`  )
+      .then(response => response.json())
       .catch((error) => console.log(error));
-      const dato2 =  respuesta;
-      console.log(dato2)
-       };
-   const alirio = dato();
-  
+              console.log(response)
+    }
+    const Cards =getData()
+  }, [])
+
   return (
     <div className="App">
       <header className="App-header">
@@ -22,7 +24,7 @@ function App() {
 </nav>
 <div className="scroll-container">
   <div className="scroll-page" id="page-1">
-    {alirio && alirio.length? alirio[0].name:null}
+    {}
     {}
   1
   </div>
