@@ -44,6 +44,8 @@ function App() {
   <a href="#page-2">Block2</a>
   <a href="#page-3">Block3</a>
 </nav>
+
+{/* SECCION 1 */}
 <div className="scroll-container">
   <div className="scroll-page0" id="page-1">
 {/* Imagen para atras con boton */}
@@ -60,7 +62,11 @@ function App() {
 <img  src={forward}  width="60"  alt="" />
 </button>
   </div>
+
+  {/* SECCION 2 */}
   <div className="scroll-page" id="page-2">2</div>
+  
+  {/* SECCION 3 */}
   <div className="scroll-page" id="page-3">3</div>
 </div>
 
