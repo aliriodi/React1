@@ -4,6 +4,8 @@
 //el fetch es para traer datos del backend
 import { useState, useEffect } from "react";
 import './App.css'
+import back from './back2.png'
+import forward from './forward.png'
 
 function App() {
   //esta declaracion el array es el primero data es la variable que deseamos usar
@@ -11,7 +13,7 @@ function App() {
   // que te permite asignar variablkes del back para usarlo en todo el componente llamado
   //App
   const [data, setData] = useState();
-
+  const [i,setI]= useState(0);
   useEffect(() => {
     //el async se usa porque es una promesa donde debes esperar la respuesta
     async function getData() {
@@ -28,22 +30,35 @@ function App() {
 
   }, [])
 
+  //Funcion para retroceder
+  function back() { if(i===0){setI(2)} else{setI(i-1)} }
+  //Funcion para avanzar
+  function forward() { if(i===2){setI(0)} else{setI(i+1)} }
+
   return (
     <div className="App">
       <header className="App-header">
         
-      <nav>
+      <nav >
   <a href="#page-1">Block1</a>
   <a href="#page-2">Block2</a>
   <a href="#page-3">Block3</a>
 </nav>
 <div className="scroll-container">
   <div className="scroll-page0" id="page-1">
+{/* Imagen para atras con boton */}
+ <button onClick={()=>back()} z-index='-0'>
+ <img  src={back} z-index='20' width="60" height="60"  alt="" /> 
+  </button>
     {/* Si tengo data imprime en pantallla los datos de la data */}
-    <h6>{data?data.Cards[0].name:null}</h6>
-    {data?<img  src={data.Cards[0].image}  width="160"  alt="" />
+    <h6>{data?data.Cards[i].name:null}</h6>
+    {data?<img  src={data.Cards[i].image}  width="160"  alt="" />
 :null}
-  1
+
+{/* Imagen para adelante con boton */}
+<button onClick={()=>forward()}>
+<img  src={forward}  width="60"  alt="" />
+</button>
   </div>
   <div className="scroll-page" id="page-2">2</div>
   <div className="scroll-page" id="page-3">3</div>
