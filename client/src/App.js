@@ -4,8 +4,8 @@
 //el fetch es para traer datos del backend
 import { useState, useEffect } from "react";
 import './App.css'
-import back from './back2.png'
-import forward from './forward.png'
+import backI from './back2.png'
+import forwardI from './forward.png'
 
 function App() {
   //esta declaracion el array es el primero data es la variable que deseamos usar
@@ -50,7 +50,7 @@ function App() {
   <div className="scroll-page0" id="page-1">
 {/* Imagen para atras con boton */}
  <button onClick={()=>back()} z-index='-0'>
- <img  src={back} z-index='20' width="60" height="60"  alt="" /> 
+ <img  src={backI} z-index='20' width="60" height="60"  alt="" /> 
   </button>
     {/* Si tengo data imprime en pantallla los datos de la data */}
     <h6>{data?data.Cards[i].name:null}</h6>
@@ -59,7 +59,7 @@ function App() {
 
 {/* Imagen para adelante con boton */}
 <button onClick={()=>forward()}>
-<img  src={forward}  width="60"  alt="" />
+<img  src={forwardI}  width="60"  height="60"  alt="" />
 </button>
   </div>
 
