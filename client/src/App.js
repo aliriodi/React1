@@ -13,6 +13,9 @@ function App() {
   // que te permite asignar variablkes del back para usarlo en todo el componente llamado
   //App
   const [data, setData] = useState();
+  //la variable i la inicio en 0 colocando dentro del useState el valor de la condicion
+  //inicial y la funcion setI es la funcion que modifica el valor de i que
+  //la llamaermos mas adelante
   const [i,setI]= useState(0);
   useEffect(() => {
     //el async se usa porque es una promesa donde debes esperar la respuesta
@@ -23,11 +26,9 @@ function App() {
       .then(response => response.json())
       .catch((error) => console.log(error));
       console.log(response);
-     
-        setData(response);
+      setData(response);
     }
     getData()
-
   }, [])
 
   //Funcion para retroceder
