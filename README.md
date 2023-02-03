@@ -15,7 +15,7 @@ localhost:3000
 ve la otra ruta 
 localhost:3001:/db
 
-esa db es del archivo db.json que te cree forzado hay que llavrlo al front End
+Ya la db esta en el front, ahora hay que darle funcionalidad al front 
 
 
 ○Bloque de navegación principal con comportamiento smooth scroll (al hacer clic
