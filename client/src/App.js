@@ -35,6 +35,17 @@ function App() {
   function back() { if(i===0){setI(2)} else{setI(i-1)} }
   //Funcion para avanzar
   function forward() { if(i===2){setI(0)} else{setI(i+1)} }
+  
+  //Disenando function delay
+  const delay = (delayInms) => {
+    return new Promise(resolve => setTimeout(resolve, delayInms));
+  }
+//declarando el cambio de imagen con delay
+  const timerNav = async () => {
+    let delayres = await delay(3000);
+    forward()
+  }
+  timerNav();
 
   return (
     <div className="App">
