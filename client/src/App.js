@@ -42,7 +42,7 @@ function App() {
   }
 //declarando el cambio de imagen con delay
   const timerNav = async () => {
-    let delayres = await delay(3000);
+    let delayres = await delay(4000);
     forward()
   }
   timerNav();
@@ -55,6 +55,7 @@ function App() {
   <a href="#page-1">Block1</a>
   <a href="#page-2">Block2</a>
   <a href="#page-3">Block3</a>
+  <a href="#page-4">Block4</a>
 </nav>
 
 {/* SECCION 1 */}
@@ -80,6 +81,8 @@ function App() {
   
   {/* SECCION 3 */}
   <div className="scroll-page" id="page-3">3</div>
+  {/* SECCION 4 */}
+  <div className="scroll-page" id="page-4">4</div>
 </div>
 
       </header>
