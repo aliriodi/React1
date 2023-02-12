@@ -43,7 +43,9 @@ function App() {
 //declarando el cambio de imagen con delay
   const timerNav = async () => {
     let delayres = await delay(4000);
-    forward()
+    
+    forward();
+    delayres();
   }
   timerNav();
 
