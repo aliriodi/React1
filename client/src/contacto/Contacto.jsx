@@ -79,10 +79,10 @@ function Contacto() {
     }
 
     return (
-        <div style={{ position: 'relative', marginTop: "260px", top: "200px" }}>
+        <div style={{ position: 'relative', marginTop: "160px", top: "80px" }}>
             <div className='center'>
-                {sent ? (<h4 style={{position: "absolute", left: "360px", color: "lightgreen", textAlign: "right"}}>Message Sent ✅</h4>) : ""}
-                <h1>Contactanos</h1>
+                {sent ? (<h6 style={{position: "absolute", left: "360px", color: "lightgreen", textAlign: "right"}}>Message Sent ✅</h6>) : ""}
+                <h6>Contactanos</h6>
                 <form style={{ minHeight: "500px", maxHeight: "650px" }} onSubmit={handleSubmit}>
                     <div className="txt_field">
                         <input
