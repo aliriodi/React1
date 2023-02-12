@@ -79,7 +79,7 @@ function Contacto() {
     }
 
     return (
-        <div style={{ position: 'relative', marginTop: "160px", top: "80px" }}>
+        <div style={{ position: 'relative', marginTop: "160px", top: "100px" }}>
             <div className='center'>
                 {sent ? (<h6 style={{position: "absolute", left: "360px", color: "lightgreen", textAlign: "right"}}>Message Sent ✅</h6>) : ""}
                 <h6>Contactanos</h6>
