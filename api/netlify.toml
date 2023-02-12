@@ -1,6 +1,11 @@
 # The following redirect is intended for use with most SPAs that handle
 # routing internally.
-[build]
-command = 'npm run build'
-functions = 'functions'
-publish = 'build'
+
+
+[[redirects]]
+  from = "/api/data"
+  to = "/.netlify/api/data"
+  status = 200
+
+  [redirects.headers]
+     Access-Control-Allow-Origin = "..."
