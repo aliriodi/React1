@@ -2,26 +2,26 @@
    [
    { 
     "id": 1,
-    "name": "Alberto Presto Pronta",
+    "name": "Las mejores casas",
     "description": "Figura Impresa 3d 15 cm Ideal como regalo y decoración de oficina/mesa! -Impresa en 3D PLA plástico ecológico -Medidas: 15 cm de altura -Excelente figura con detalles en alta calidad -Consultar por mas colores, medidas y modelos!.",
     "price": 1890,
-    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_944492-MLA46557573816_062021-F.webp",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/b8/bc/a5/posada-casa-de-campo.jpg?w=1600&h=-1&s=1",
     "stock": 10,
     "tipo" : "Muneco"
    },
    {
     "id": 2,
-    "name": "Mate de Copa Mundial",
-    "description": "En esta oportunidad estamos presentando un mate de Copa del Mundo. Impreso en PLA, pintado y laqueado. Medida Total: 27 DE ALTO POR 11 DE DIAMETRO Mate: 9cm DE ALTO POR 11cm DE DIAMETROInterior de polímero apto para consumo Bombilla de metal.",
+    "name": "Un espacio unico en la Montaña",
+    "description": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/b8/bc/47/posada-casa-de-campo.jpg?w=2000&h=-1&s=1",
     "price": 3000,
-    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_957171-MLA52972119431_122022-F.webp",
+    "image": "",
     "stock": 50,
     "tipo" : "Mate"
    },
    {
     "id": 3,
-    "name": "Porta celular",
-    "description": "Con este portacelular podras cargar tu equipo donde desees y verlo ergonomicamente donde estes.",
+    "name": "Ambiente Familiar ...",
+    "description": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/d5/3d/10/photo4jpg.jpg?w=2200&h=-1&s=1",
     "price": 1320,
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS45A76MbYWcPgusVsu-CZ9kkVfPeR80ThRFg&usqp=CAU",
     "stock": 5,
