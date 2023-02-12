@@ -24,7 +24,7 @@ function App() {
       // es que va a tomar las respuestas y tomar acciones de las respuestas
       const response = await fetch(`https://hospedaje-react-api.netlify.app/db.json`,
                                   { mode: 'cors',
-                                    headers: { 'Content-Type': 'application/json',
+                                    headers: { 'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
                                                }})
       .then(response => response.json())
       .catch((error) => console.log(error));
