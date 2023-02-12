@@ -23,7 +23,8 @@ function App() {
       // el await es para que espere que responda, los .then
       // es que va a tomar las respuestas y tomar acciones de las respuestas
       const response = await fetch(`https://hospedaje-react-api.netlify.app/db.json`,
-                                  {headers: { 'Access-Control-Allow-Origin': '*', }})
+                                  { mode: 'cors',
+                                    headers: { 'Access-Control-Allow-Origin': '*', }})
       .then(response => response.json())
       .catch((error) => console.log(error));
       console.log(response);
