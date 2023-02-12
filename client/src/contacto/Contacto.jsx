@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { sendContactForm } from '../lib/api';
+//import { sendContactForm } from '../lib/api';
 
 function Contacto() {
     const [sent, setSent] = useState(false)
