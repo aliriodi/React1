@@ -44,7 +44,7 @@ function App() {
     return new Promise(resolve => setTimeout(resolve, delayInms));
   }
 //declarando el cambio de imagen con delay
-async function delayres  ()   {await delay(4000)}
+async function delayres  ()   {await delay(6000)}
  
 const timerNav = async () => {
        await delayres()
