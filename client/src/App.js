@@ -22,7 +22,7 @@ function App() {
     async function getData() {
       // el await es para que espere que responda, los .then
       // es que va a tomar las respuestas y tomar acciones de las respuestas
-      const response = await fetch(`http://localhost:3001/db`  )
+      const response = await fetch(`https://main--hospedaje-react-api.netlify.app/db.json`  )
       .then(response => response.json())
       .catch((error) => console.log(error));
       console.log(response);
