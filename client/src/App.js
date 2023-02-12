@@ -61,7 +61,7 @@ const timerNav = async () => {
   <a href="#page-1">Block1</a>
   <a href="#page-2">Block2</a>
   <a href="#page-3">Block3</a>
-  <a href="#page-4"><Contacto /></a>
+  <a href="#page-4">Contacto</a>
 </nav>
 
 {/* SECCION 1 */}
@@ -88,7 +88,7 @@ const timerNav = async () => {
   {/* SECCION 3 */}
   <div className="scroll-page" id="page-3">3</div>
   {/* SECCION 4 */}
-  <div className="scroll-page" id="page-4">4</div>
+  <div className="scroll-page" id="page-4"><Contacto /></div>
 </div>
 
       </header>
