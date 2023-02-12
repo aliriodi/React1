@@ -10,3 +10,4 @@
     [headers.values]
     Access-Control-Allow-Origin = "*"
     access-control-allow-origin = "*" 
+    access-control-allow-headers = "*"
