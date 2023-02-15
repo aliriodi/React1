@@ -6,6 +6,7 @@ import { useState, useEffect } from "react";
 import './App.css'
 import backI from './back2.png'
 import forwardI from './forward.png'
+import Contacto from "./contacto/Contacto";
 
 function App() {
   //esta declaracion el array es el primero data es la variable que deseamos usar
@@ -44,7 +45,7 @@ function App() {
     return new Promise(resolve => setTimeout(resolve, delayInms));
   }
 //declarando el cambio de imagen con delay
-async function delayres  ()   {await delay(4000)}
+async function delayres  ()   {await delay(6000)}
  
 const timerNav = async () => {
        await delayres()
@@ -60,7 +61,7 @@ const timerNav = async () => {
   <a href="#page-1">Block1</a>
   <a href="#page-2">Block2</a>
   <a href="#page-3">Block3</a>
-  <a href="#page-4">Block4</a>
+  <a href="#page-4">Contacto</a>
 </nav>
 
 {/* SECCION 1 */}
@@ -87,7 +88,7 @@ const timerNav = async () => {
   {/* SECCION 3 */}
   <div className="scroll-page" id="page-3">3</div>
   {/* SECCION 4 */}
-  <div className="scroll-page" id="page-4">4</div>
+  <div className="scroll-page" id="page-4"><Contacto /></div>
 </div>
 
       </header>

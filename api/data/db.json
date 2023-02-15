@@ -12,18 +12,18 @@
    {
     "id": 2,
     "name": "Un espacio unico en la Montaña",
-    "description": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/b8/bc/47/posada-casa-de-campo.jpg?w=2000&h=-1&s=1",
+    "description": "",
     "price": 3000,
-    "image": "",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/d5/3d/0d/photo1jpg.jpg?w=2200&h=-1&s=1",
     "stock": 50,
     "tipo" : "Mate"
    },
    {
     "id": 3,
     "name": "Ambiente Familiar ...",
-    "description": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/d5/3d/10/photo4jpg.jpg?w=2200&h=-1&s=1",
+    "description": "111",
     "price": 1320,
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS45A76MbYWcPgusVsu-CZ9kkVfPeR80ThRFg&usqp=CAU",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/d5/3d/10/photo4jpg.jpg?w=2200&h=-1&s=1",
     "stock": 5,
     "tipo" : "Celular"
    }

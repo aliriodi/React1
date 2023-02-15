@@ -1,10 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
 a {
+  padding-top: 8px;
   display: inline-block;
-  width: 50px;
+  width: 80px;
   text-decoration: none;
 }
 nav,
 .scroll-container {
+  
   display: block;
   margin: 0 auto;
   text-align: center;
